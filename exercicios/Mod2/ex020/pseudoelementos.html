@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+       a:visited{
+            color: blue;
+       }
+
+       a:active{
+        color: blueviolet;
+       }
+
+       a::after{
+        content: '⬅︎';
+       }
+
+       a::before{
+        content: '➡︎';
+       }
+    </style>
+</head>
+<body>
+    <h1>Meus links</h1>
+    <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Linkedin</a></li>
+    </ul>
+</body>
+</html>
